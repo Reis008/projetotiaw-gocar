@@ -7,5 +7,5 @@
 | Poupar Tempo      | Como um Funcionário novo, eu preciso de uma forma de chegar rápido ao trabalho sem me arriscar muito. Para isso eu vou alugar um carro mais barato que não me envolva em gastos não pre-calculados como transferência de bem ou pagar um grande valor de entrada ou de juros e que ele já esteja disponível para uso no mesmo dia. 
 | Motorista de app | Como um Motorista de app preciso saber onde é o melhor lugar para alugar um carro de forma mais econômica e rápida.  |
 | Trabalhar com Carro | Seu Antônio tem um comercio na região de belo horizonte há mais de 10 anos só que agora com a pandemia ele teve que se reinventar partiu para internet e com isso precisa de um carro grande como uma fiorino por exemplo par fazer suas entregas como o custo com um carro desse e muito alto sua melhor opção e alugar para isso seu Antônio está sempre em busca de site de aluguel de carros para fazer suas contratações e fechar negócio. 
-  | 
+  
  
