@@ -1,21 +1,17 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
+## GoCar
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+## Sistemas de informação -Trabalho Interdisciplinar: Aplicações Web
+
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Flavio Gomes Reis
+> - Gabriel Luis Ferreira Figueiredo
+> - Henrique Canderoli Mendes
+> - Lucas Soares Dos Reis
 
 # Estrutura do Documento
 
@@ -39,29 +35,15 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos. Utilize como base a ficha inicial de detalhamento do problema.
->
+Nosso principal problema é a locomoção de pessoas que necessitam de um carro para cada tipo de ocasião, por exemplo, uma pessoa precisa de um carro para uma viagem no interior, provavelmente o usuário vai preferir usar carro mais resistente para estrada de terra. Outro exemplo, seria uma família que precisa de um carro mais econômico para uma viagem outro exemplo, são pessoas que querem testar carros de luxo e que tenha interesse em comprar, assim utiliza as locadoras para realizar o teste dos carros e analisar o que mais gostou.
 
 ## Objetivos
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também pelo menos 2 objetivos
-> específicos dependendo de onde você vai querer concentrar ou aprofundar
-> as características do trabalho.
-> 
-> **Link Útil**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
+•	Objetivo geral é desenvolver um software para solucionar o problema
+o	
 ## Público-Alvo
 
 ......  COLOQUE AQUI O SEU TEXTO ......
@@ -70,7 +52,7 @@
 > diferentes perfis. O objetivo aqui não é definir quem serão os
 > clientes ou quais serão os papéis dos usuários na aplicação. A ideia
 > é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
+> usuários: conhecimetos prévios, relação com a tecnologia, relações
 > hierárquicas, etc.
 >
 > Adicione informações sobre o público-alvo por meio de uma descrição
@@ -189,6 +171,4 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 > Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
 > o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldes encontradas e como foi possível contorná-las. 
-
-
+> as principais dificuldades encontradas e como foi possível con
