@@ -1,11 +1,9 @@
 
 | IDENTIFICADOR | HISTORIA | 
 | ------------- | ------------- | 
-| Alugar um Carro        | Identificador: Alugar um Carro                    Gabriel 
-
- 
-
-Como um jornalista, necessito de um app ou site com fácil acessibilidade, que me mostre o valor do aluguel do carro baseado no dia de retirada e da entrega do carro pois tenho uma viagem programada para Belo Horizonte e minha editora não tem convenio com nenhuma locadora. 
+| IDENTIFICADOR | HISTORIA | 
+| ------------- | ------------- | 
+| Alugar um Carro        |Como um jornalista, necessito de um app ou site com fácil acessibilidade, que me mostre o valor do aluguel do carro baseado no dia de retirada e da entrega do carro pois tenho uma viagem programada para Belo Horizonte e minha editora não tem convenio com nenhuma locadora. 
 
 Preciso para não perder tempo procurando em outros lugares. 
 
@@ -32,5 +30,4 @@ Preciso para não perder tempo procurando em outros lugares.
 
 | Trabalhar com Carro | Seu Antônio tem um comercio na região de belo horizonte há mais de 10 anos só que agora com a pandemia ele teve que se reinventar partiu para internet e com isso precisa de um carro grande como uma fiorino por exemplo par fazer suas entregas como o custo com um carro desse e muito alto sua melhor opção e alugar para isso seu Antônio está sempre em busca de site de aluguel de carros para fazer suas contratações e fechar negócio. 
 
-  | 
- 
+  |
