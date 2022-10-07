@@ -1,8 +1,37 @@
 | Usuário      | Requisito | Motivação     |
 | :----:        |    :----:   |          :----: |
-| Como um cliente, eu quero      | acessar uma página<br>com informações gerais do produto       | para poder decidir se vou contratar o serviço.   |
-| Como um usuário, eu quero   | ter acesso privado ao sistema        | para sentir confiança na privacidade<br>de meus dados e pedidos.      |
+| IDENTIFICADOR | HISTORIA | 
+| ------------- | ------------- | 
+| Alugar um Carro        | Identificador: Alugar um Carro                    Gabriel 
 
+ 
 
+Como um jornalista, necessito de um app ou site com fácil acessibilidade, que me mostre o valor do aluguel do carro baseado no dia de retirada e da entrega do carro pois tenho uma viagem programada para Belo Horizonte e minha editora não tem convenio com nenhuma locadora. 
 
-> Written with [StackEdit](https://stackedit.io/).
+Preciso para não perder tempo procurando em outros lugares. 
+
+ | 
+| Pesquisa                      | Como um jovem eu preciso de um app ou site de fácil acesso e manuseio no qual eu encontre dados sobre aluguel e compra de carros para que eu possa fazer uma pesquisa e descobrir se compensa continuar alugando ou investir em um veículo. Isso vai me poupar tempo e dinheiro 
+
+  | 
+
+| Viagem em família      | Como um pai de família, eu preciso de um app ou site para me mostrar carros que comportam 7 pessoas e mês mostre o valor do aluguel a categoria do carro que gostaria, pois irei fazer uma viagem com minha família, preciso de um carro grande e não gosto de depender de taxis, Uber, entre outros. 
+
+ | 
+| Turista                           | Como um turista eu preciso de um app ou site de fácil acesso e confiável para me mostrar o valor do aluguel do carro baseado no dia de retirada e da entrega para eu aproveitar ao máximo minha viagem e ter mais autonomia visitando várias cidades. 
+
+  | 
+
+| Poupar Tempo      | Como um Funcionário novo, eu preciso de uma forma de chegar rápido ao trabalho sem me arriscar muito. Para isso eu vou alugar um carro mais barato que não me envolva em gastos não pre-calculados como transferência de bem ou pagar um grande valor de entrada ou de juros e que ele já esteja disponível para uso no mesmo dia. 
+
+  | 
+| Motorista de app | Como um Motorista de app preciso saber onde é o melhor lugar para alugar um carro de forma mais econômica e rápida.  | 
+
+| Trabalhar com Carro | Como representante comercial preciso de um carro para poder fazer minhas visitas aos lojistasPara isso estou sempre indo em várias cidades e por isso preferir alugar carros que atenda minhas demandas de cada dia de acordo com perfil da cidade e dos meus clientes. 
+
+  | 
+
+| Trabalhar com Carro | Seu Antônio tem um comercio na região de belo horizonte há mais de 10 anos só que agora com a pandemia ele teve que se reinventar partiu para internet e com isso precisa de um carro grande como uma fiorino por exemplo par fazer suas entregas como o custo com um carro desse e muito alto sua melhor opção e alugar para isso seu Antônio está sempre em busca de site de aluguel de carros para fazer suas contratações e fechar negócio. 
+
+  | 
+ 
