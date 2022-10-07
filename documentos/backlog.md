@@ -1,5 +1,4 @@
-| Usuário      | Requisito | Motivação     |
-| :----:        |    :----:   |          :----: |
+
 | IDENTIFICADOR | HISTORIA | 
 | ------------- | ------------- | 
 | Alugar um Carro        | Identificador: Alugar um Carro                    Gabriel 
