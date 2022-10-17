@@ -16,7 +16,6 @@ Que tal realizar aquele sonho do carro novo? Na GoCar você encontra toda a ajud
 * Lucas Gabriel da Silva Felix
 
 ## Quadro de tarefas
-https://miro.com/app/board/uXjVPQPaUKY=/.
-
+https://miro.com/app/board/uXjVPQPaUKY=/?share_link_id=544050409694
 ## Instruções para uso
 Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
