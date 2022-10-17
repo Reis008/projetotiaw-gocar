@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function mesmasenha(){
+            const senha = document.querySelector('input[name=senha]');
+            const confirmar = document.querySelector('input[name=confirmar]');
+
+            if (confirmar.value === senha.value){
+                confirmar.setCustomValidity('');
+            }else{
+                confirmar.setCustomValidity('As senhas não conferem');
+            }
+        }
+    function senhaOK(){ alert("Cadastro Aprovado!") }
+
+
+    </script>
+    <title>cadastro</title>
+</head>
+<body>
+    <section class="area-login">
+        <div class="login"; style="height: 600px;">
+            <div>
+                <img src="imagens/logo1.png">
+            </div>
+
+            <form method="POST" onsubmit="SenhaOK();">
+                <input type="text" name="nome" required placeholder="Nome do usuario" autofocus>
+                <input type="mail" name="e-mail" required placeholder="E-mail" autofocus>
+                <input type="tel" name="telefone" required placeholder="Telefone" autofocus>
+                <input type="number" name="nome" required placeholder="CPF" autofocus>
+                <input type="password" name="senha" required onchange='mesmasenha();' placeholder="Senha">
+                <input type="password" name="confirmar" required onchange='mesmasenha();' placeholder="Confirmar senha">
+                <input type="submit" value="Entrar">
+            </form>
+            <p>Já possui uma conta? <a href="../view/login.html">Logar</a></p>
+        </div>
+    </section>
+</body>
+</html>
