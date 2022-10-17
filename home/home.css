@@ -1,0 +1,250 @@
+/*HEADER*/ 
+
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid rgb(255, 250, 250);
+  height: 60px;
+  background-color: rgb(27, 26, 26);
+}
+
+header .logo {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .logo img {
+  margin-top: 0%;
+  margin-left: 50px;
+  width: 150px;
+  height: 60px;
+}
+
+header .links .navbar {
+  margin-right: 100px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+header .links .navbar .login {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 180px;
+ 
+}
+
+header .links .navbar .login a{
+  border-radius: 8px;
+  background-color: rgb( 216, 41, 28);
+}
+
+header .links .navbar li {
+  margin: 0 5px;
+  background-color: rgb(27, 26, 26);
+}
+
+header .links li a {
+  color: white;
+  background-color:rgb(27, 26, 26);
+}
+
+
+/*FIM HEADER*/
+
+
+/*CARROUSEL*/
+#carousel {
+  margin-top:80px;
+  margin-left: 40px;
+  width: 200vh;
+  height: 50vh;
+  
+  max-height: fit-content;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 110px;
+  
+}
+
+#carousel h2{
+  display: flex;
+  margin-left: 480px
+  
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130%;
+  height: 200%;
+  margin: 24px auto;
+
+}
+
+.carousel-container .carousel-inner .carousel-item{
+  background-color: red;
+  width: 150%;
+  height: 300%;
+ 
+}
+
+/*CARROUSEL FIM */
+
+/*PARCERIAS*/
+.segundo h2{
+  margin-top: 200px;
+  display: flex;
+  margin-left: 500px;
+}
+.segundo .marcas{
+  display: flex;
+  flex-direction: row;
+}
+
+.segundo .marcas img{
+  display:flex;
+  flex-direction: row;
+  width: 70%; 
+}
+/*PARCERIAS FIM*/
+
+
+/*CARDS*/
+.cardgrupo{
+  background-color:rgb(27, 26, 26);
+  display: flex;
+  flex-direction: row;
+}
+ .titulo{
+
+  display: block;
+  margin-left: 530px;
+
+}
+.cardgrupo .card{
+  margin-top: 30px;
+width: 60%;
+background-color:rgb(27, 26, 26);
+
+}
+
+.cardgrupo .card img{
+  
+  width: 70%;
+  margin-left: 55px;
+ border-radius: 10px;
+ border-color: black;
+}
+.cardgrupo .card .cardbody{
+  
+  background-color:rgb(27, 26, 26);
+  border-color: black;
+ 
+}
+.cardgrupo .card .cardbody .cardtitle{
+  text-align: center;
+  color: white;
+}
+.cardgrupo .card .cardbody .cardtext{
+  margin-left: 5px;
+  font-size: medium;
+  background-color:  rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.cardgrupo .card .cardbody .botao{
+  text-align: center;
+  margin-top: 22px;
+}
+
+/*CARDS FIM*/
+
+
+
+
+/*CARDS 2*/
+.cardgrupo2{
+  background-color:rgb(27, 26, 26);
+  display: flex;
+  flex-direction: row;
+}
+ .titulo2{
+   background-color: black;
+  display: block;
+  margin-left: 530px;
+
+}
+.cardgrupo2 .card{
+  margin-top: 30px;
+  width: 50%;
+background-color:rgb(255, 255, 255);
+
+}
+
+.cardgrupo2 .card img{
+  
+  width: 70%;
+  margin-left: 55px;
+ border-radius: 10px;
+ border-color: rgb(255, 253, 253);
+}
+.cardgrupo2 .card{
+  
+  background-color: rgb(27, 26, 26);
+  border-color: black;
+}
+
+
+/*CARDS 2 FIM*/
+
+
+
+/*FOOTER*/
+.footer{
+  border-top: 40px;
+  background:rgb(27, 26, 26);
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  footer .row ul :hover{
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:1.3em;
+  align-items: center;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+
+  
+  .footer .row ul li a{
+    color: white;
+    }
+/*FOOTER FIM*/
+ 
+  
