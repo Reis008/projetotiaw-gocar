@@ -18,7 +18,7 @@ Que tal realizar aquele sonho do carro novo? Na GoCar você encontra toda a ajud
 ## Quadro de tarefas
 https://miro.com/app/board/uXjVPQPaUKY=/?share_link_id=544050409694
 
-##Historias De Usuarios
+## Historisas De Usuarios
 https://github.com/DisciplinasProgramacao/projetotiaw-gocar/blob/5fcb750be391f3b22557967e77a5ca884d08b3bd/docs/formularios/TIAW_Modelo_HistoriasDeUsuarios.pdf
 
 ## Instruções para uso
