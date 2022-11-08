@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="login.css">
+    <link href="script_cadastro.js">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>cadastro</title>
+</head>
+<body>
+    <section class="area-login">
+        <div class="login"; style="height: 600px;">
+            <div>
+                <img src="logo.png">
+            </div>
+
+            <form method="POST" onsubmit="SenhaOK();">
+                <input type="text" name="nome" required placeholder="nome do usuario" autofocus>
+                <input type="mail" name="e-mail" required placeholder="e-mail" autofocus>
+                <input type="tel" name="telefone" required placeholder="telefone" autofocus>
+                <input type="number" name="nome" required placeholder="CPF" autofocus>
+                <input type="password" name="senha" required onchange='mesmasenha();' placeholder="senha">
+                <input type="password" name="confirmar" required onchange='mesmasenha();' placeholder="confirmar senha">
+                <input type="submit" value="entrar">
+            </form>
+            <p>Já possui uma conta? <a href="../view/login.html">Logar</a></p>
+        </div>
+    </section>
+</body>
+</html>
