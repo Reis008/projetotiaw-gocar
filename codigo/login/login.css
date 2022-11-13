@@ -108,6 +108,12 @@ input::placeholder {
 
 }
 
+form [type="submit"]:hover{
+  color: rgb(216, 41, 28);
+  background: white;
+  transition: .5s;
+}
+
 form [type="submit"] {
   display: block;
   background-color: rgb(216, 41, 28);
@@ -127,6 +133,15 @@ a {
   margin-left: 10px;
 }
 
+
+msgError{
+text-align: center;
+color: #ff0000;
+background-color: #ffbbbb;
+padding: 10px;
+border-radius: 4px;
+display: none;
+}
 
 
 /*FOOTER*/

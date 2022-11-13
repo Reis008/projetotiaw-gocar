@@ -11,8 +11,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
    <link rel="stylesheet" href="login.css" />
+
+    <script src="login.js"></script>
 </head>
 
 
@@ -54,13 +55,20 @@
                 <img src="imagens/logo1.png">
             </div>
 
+            <div id = 'msgError'></div>
+
             <form method="POST">
-                <input type="text" name="nome" required placeholder="Nome do usuario" autofocus>
-                <input type="password" name="senha" required placeholder="Senha">
-                <input type="submit" value="entrar">
+                <input type="nome" name="nome" id="user" required placeholder="Nome do usuario" autofocus>
+                <label id='userlabel' for="user"></label>
+
+                <input type="password" name="senha" id="senha" required placeholder="Senha">
+                <label id='senhalabel' for="senha"></label>
+
+                <input onclick="enter()" type="submit" id="btnentrar" value="entrar">
             </form>
             <p>Não possui uma conta? <a href="cadastro.html">Criar uma conta</a></p>
         </div>
+
     </section>
 
 
