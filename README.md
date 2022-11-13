@@ -22,4 +22,4 @@ https://trello.com/invite/b/SorZb01e/ATTI50efd3c820242b98d83fa6588139e29163EEB9C
 https://github.com/DisciplinasProgramacao/projetotiaw-gocar/blob/5fcb750be391f3b22557967e77a5ca884d08b3bd/docs/formularios/TIAW_Modelo_HistoriasDeUsuarios.pdf
 
 ## Instruções para uso
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+codigo/home/home.html
