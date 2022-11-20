@@ -108,15 +108,16 @@ input::placeholder {
 
 }
 
-form [type="submit"]:hover{
+.btnentrar:hover{
   color: rgb(216, 41, 28);
-  background: white;
+  background: white!Important;
   transition: .5s;
 }
 
-form [type="submit"] {
+.btnentrar {
   display: block;
-  background-color: rgb(216, 41, 28);
+  text-align: center;
+  background-color: rgb(216, 41, 28)!Important;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
