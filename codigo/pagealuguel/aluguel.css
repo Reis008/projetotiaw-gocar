@@ -1,0 +1,177 @@
+/*HEADER*/
+  
+  header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(255, 250, 250);
+    height: 60px;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  header .logo {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header .logo img {
+    margin-top: 0%;
+    margin-left: 50px;
+    width: 150px;
+    height: 60px;
+  }
+  
+  header .links .navbar {
+    margin-right: 100px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  header .links .navbar .login {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 180px;
+  
+  }
+  
+  header .links .navbar .login a {
+    border-radius: 8px;
+    background-color: rgb(216, 41, 28);
+  }
+  
+  header .links .navbar li {
+    margin: 0 5px;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  header .links li a {
+    color: white;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  
+  /*FIM HEADER*/
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica,
+      Arial, sans-serif;
+
+  }
+  h4 {
+    margin: 0 0 0.5rem 0;
+  }
+  p {
+    margin: 0 0 1rem 0;
+  }
+  select,
+  button {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  select {
+    background-color: white;
+    height: 3rem;
+    text-overflow: ellipsis;
+    word-break: break-all;
+  }
+  button {
+    background-color: lightgray;
+    border: 1px solid;
+  }
+  table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  table tr td {
+    padding: 1rem;
+    border: 1px solid black;
+  }
+  table tr td:first-child {
+    background: whitesmoke;
+    font-weight: bold;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0 1rem 0;
+    margin-bottom: 250px;
+  }
+  @media (min-width: 599px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .container div {
+      text-align: left;
+      width: 48%;
+    }
+  }
+    
+
+
+  
+  
+  
+  /*FOOTER*/
+  .footer {
+    border-top: 40px;
+    background: rgb(27, 26, 26);
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+  }
+  
+  footer .row ul :hover {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 1.3em;
+    align-items: center;
+  }
+  
+  .footer .row ul {
+    width: 100%;
+  
+  }
+  
+  .footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  
+  .footer .row ul li a {
+    color: white;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 

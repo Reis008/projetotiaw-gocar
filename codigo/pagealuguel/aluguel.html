@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Aluguel - Go Car</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link rel="stylesheet" href="aluguel.css" />
+</head>
+
+<body>
+   <header>
+      <div>
+         <a class="logo" href="/">
+            <img src="/pagealuguel/imagens/logo1.png" />
+         </a>
+      </div>
+      <div class="links">
+         <ul class="navbar" ;>
+            <li class="nav-item ">
+               <a class="nav-link" href="/home/home.html"> Principal </a>
+            </li>
+            <li class="nav-item active">
+               <a class="nav-link" href="/sobre/sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/pagealuguel/aluguel.html">Aluguel</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/compra/compra.html">Compra</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="?????">Clube de Descontos</a>
+            </li>
+            <div class="login">
+               <li class="nav-item d_none">
+                  <a class="nav-link" href="/login/login.html"><i class="fa fa-user-circle padd_right"
+                        aria-hidden="true"></i>Login/Register</a>
+               </li>
+            </div>
+         </ul>
+      </div>
+
+   </header>
+
+   <body>
+      <section>
+      <h1>Preço de Veículo</h1>
+      <div class="container">
+         <div id="form">
+            <label>
+               <h4>Mês de referência</h4>
+               <select id="referencia" disabled>
+                  <option value="">-</option>
+               </select>
+            </label>
+
+            <label>
+               <h4>Típo de veículo</h4>
+               <select id="tipo_veiculo" disabled>
+                  <option value="">-</option>
+                  <option value="1">🚗&nbsp;&nbsp;Carro</option>
+               </select>
+            </label>
+
+            <label>
+               <h4>Marca</h4>
+               <select id="marca" disabled>
+                  <option value="">-</option>
+               </select>
+            </label>
+
+            <label>
+               <h4>Modelo</h4>
+               <select id="modelo" disabled>
+                  <option value="">-</option>
+               </select>
+            </label>
+
+            <label>
+               <h4>Ano / Combustível</h4>
+               <select id="ano" disabled>
+                  <option value="">-</option>
+               </select>
+            </label>
+
+            <p>
+               <button type="button" id="search" disabled>Consultar</button>
+            </p>
+         </div>
+
+         <div id="resultado"></div>
+      </div>
+      </section>
+      <footer>
+         <div class="footer">
+            <div class="row">
+               <ul>
+                  <li href="#"><a class="fa fa-facebook"></a></li>
+                  <li href="#"><a class="fa fa-instagram"></a></li>
+                  <li href="#"><a class="fa fa-youtube"></a></li>
+                  <li href="#"><a class="fa fa-twitter"></a></li>
+               </ul>
+            </div>
+
+            <div class="row">
+               <ul>
+                  <li><a href="/home/home.html">Principal</a></li>
+                  <li><a href="/sobre/sobre.html">Sobre nos</a></li>
+                  <li><a href="/pagealuguel/aluguel.html">Aluguel</a></li>
+                  <li><a href="/compra/compra.html">Compra</a></li>
+                  <li><a href="#">Clube de Descontos</a></li>
+               </ul>
+            </div>
+
+            <div class="copy">
+               @Copyright 2020 - Disciplina de Trabalho Interdisciplinar -PUC MINAS
+            </div>
+         </div>
+      </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+         crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </body>
+
+</html>
