@@ -1,0 +1,171 @@
+body {
+    background-image: url(https://jornaleconomico.pt/wp-content/uploads/2022/06/carros-1.png?w=690&h=432&q=60&compress=auto,format&fit=crop);
+    background-size: cover;
+  }
+  
+  /*HEADER*/
+  
+  
+  header {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 60px;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  header .logo {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header .logo img {
+    margin-top: 0%;
+    margin-left: 50px;
+    width: 150px;
+    height: 60px;
+  }
+  
+  header .links .navbar {
+    margin-right: 350px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  header .links .navbar li {
+    margin: 0 5px;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  header .links li a {
+    color: white;
+    background-color: rgb(27, 26, 26);
+  }
+  
+  .fundo {
+    width: 100%;
+  }
+  
+  /*FIM HEADER*/
+  
+  .area-login {
+    display: flex;
+    height: 109vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #161616df;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width: 50%
+  }
+  
+  
+  .login form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .login input {
+    margin-top: 10px;
+    background-color: #252a34;
+    color: #d6d8e9;
+    border: none;
+    height: 60px;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 10px;
+  }
+  
+  .login img {
+    width: 120px;
+    height: auto;
+    align-items: center;
+  }
+  
+  input::placeholder {
+    color: #CBD0F7;
+    font-size: 14px;
+  
+  }
+  
+  .btn-submit {
+  text-align: center;
+  display: block;
+  background-color: rgb(216, 41, 28)!important;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+
+  }
+  
+  p {
+    color: #d6d8e9;
+  }
+  
+  a {
+    color: #5568FE;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  
+  
+  /*FOOTER*/
+  .footer {
+    border-top: 40px;
+    background: rgb(27, 26, 26);
+    padding: 30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+  }
+  
+  footer .row ul :hover {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  .footer .row {
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0.6% 0%;
+    color: gray;
+    font-size: 1.3em;
+    align-items: center;
+  }
+  
+  .footer .row ul {
+    width: 100%;
+  
+  }
+  
+  .footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  
+  .footer .row ul li a {
+    color: white;
+  }
+  
+  /*FOOTER FIM*/
