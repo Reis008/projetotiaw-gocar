@@ -16,7 +16,7 @@
    <header>
       <div>
          <a class="logo" href="/">
-            <img src="/pagealuguel/imagens/logo1.png" />
+            <img src="imagens/logo1.png" />
          </a>
       </div>
       <div class="links">
@@ -33,6 +33,7 @@
             <li class="nav-item">
                <a class="nav-link" href="/compra/compra.html">Compra</a>
             </li>
+   
             <li class="nav-item">
                <a class="nav-link" href="?????">Clube de Descontos</a>
             </li>
@@ -48,54 +49,67 @@
    </header>
 
    <body>
-      <section>
-      <h1>Preço de Veículo</h1>
-      <div class="container">
-         <div id="form">
-            <label>
-               <h4>Mês de referência</h4>
-               <select id="referencia" disabled>
-                  <option value="">-</option>
-               </select>
-            </label>
 
-            <label>
-               <h4>Típo de veículo</h4>
-               <select id="tipo_veiculo" disabled>
-                  <option value="">-</option>
-                  <option value="1">🚗&nbsp;&nbsp;Carro</option>
-               </select>
-            </label>
+       <h1>Preço de Veículo</h1>
+    <p>Consultar preços médios de veículos diretamente na FIPE.</p>
+    <hr />
+    <div class="container">
+      <div id="form">
+        
 
-            <label>
-               <h4>Marca</h4>
-               <select id="marca" disabled>
-                  <option value="">-</option>
-               </select>
-            </label>
+        <label>
+          <h4>Típo de veículo</h4>
+          <select id="tipo_veiculo" required>
+            <option value="0">selecione</option>
+            <option value="cars">cars</option>
+            <option value="motorcycles">motorcycles</option>
+            <option value="trucks">trucks</option>
+          </select>
+        </label>
 
-            <label>
-               <h4>Modelo</h4>
-               <select id="modelo" disabled>
-                  <option value="">-</option>
-               </select>
-            </label>
+        <label>
+          <h4>Marca</h4>
+          <select id="marca" onclick="buscarmarca()">
+            <option value="0">selecione</option>
+          </select>
+        </label>
 
-            <label>
-               <h4>Ano / Combustível</h4>
-               <select id="ano" disabled>
-                  <option value="">-</option>
-               </select>
-            </label>
+        <label>
+          <h4>Modelo</h4>
+          <select id="modelo" onclick="buscarmodelo()">
+            <option value="">selecione</option>
+          </select>
+        </label>
+        <label>
+          <h4>Ano do Modelo</h4>
+          <select id="anoModelo" onclick="buscarAnomodelo()">
+            <option value="0">selecione</option>
+          </select>
+        </label>
 
-            <p>
-               <button type="button" id="search" disabled>Consultar</button>
-            </p>
-         </div>
+        <label>
+          <h4>Numero de dias</h4>
+          <input type="number" name="numeroDias" id="numeroDias">
+        </label>
 
-         <div id="resultado"></div>
+        <p>
+          <button type="button" id="search" onclick="CaucularDiaria()">Consultar</button>
+        </p>
       </div>
-      </section>
+
+      <div id="resultado">
+      </div>
+    </div>
+
+    </div>
+
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("./sw.js");
+        });
+      }
+    </script>
       <footer>
          <div class="footer">
             <div class="row">
@@ -123,7 +137,9 @@
          </div>
       </footer>
 
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="Main.js"></script>
+      
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
          crossorigin="anonymous"></script>
