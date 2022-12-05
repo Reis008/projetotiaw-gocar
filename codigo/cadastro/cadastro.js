@@ -1,19 +1,50 @@
 
 /*Validação de senhas*/
+
+function campos(){
+    var senha = document.getElementById("senha");
+    var confirm_senha = document.getElementById("confirmsenha");
+    var email = document.getElementById("email");
+    var nome = document.getElementById("nome");
+    var tel = document.getElementById("tel");
+    var cpf = document.getElementById("cpf");
+    let msgFormulario = document.querySelector("#msgFormulario");
+
+    if(senha.value == "" || confirm_senha.value == "" || email == "" || nome == "" || tel == "" || cpf == ""){
+        msgError.setAttribute("style", "display: none")
+        msgFormulario.setAttribute("style", "display: block")
+        msgSuccess.setAttribute("style", "display: none")
+        msgFormulario.innerHTML = "Preencha todos os campos"
+    } else{
+        validatesenha()
+    }
+}
 function validatesenha(){
+    let msgError = document.querySelector("#msgError");
+    let msgSuccess = document.querySelector("#msgSuccess");
     var senha = document.getElementById("senha");
     var confirm_senha = document.getElementById("confirmsenha");
 
     if(senha.value != confirm_senha.value) {
-        confirm_senha.setCustomValidity(alert("Senhas diferentes"));
+        msgFormulario.setAttribute("style", "display: none"),
+        confirm_senha.setCustomValidity(
+        msgError.setAttribute("style", "display: block"),
+        msgError.innerHTML = "Senhas não conferem"
+        );
+        limparformsenhas()
     } else {
-        confirm_senha.setCustomValidity(alert("Cadastrado com sucesso"));
+        msgFormulario.setAttribute("style", "display: none")
+        msgError.setAttribute("style", "display: none")
+        confirm_senha.setCustomValidity(
+            msgSuccess.setAttribute("style", "display: block"),
+            msgSuccess.innerHTML = "Cadastrado com Sucesso"
+        );
         cadastroNovo();
         limparform();
     }
 
-    senha.onchange = validatesenha;
-    confirm_senha.onkeyup = validatesenha;
+    //senha.onchange = validatesenha;
+    //confirm_senha.onkeyup = validatesenha;
 }
 
 /*Vetor cadastros*/
@@ -44,6 +75,13 @@ function limparform(){
     document.getElementById("email").value="";
     document.getElementById("tel").value="";
     document.getElementById("cpf").value="";
+    document.getElementById("confirmsenha").value="";
+    document.getElementById("senha").value="";
+
+}
+
+function limparformsenhas(){
+    document.getElementById("confirmsenha").value="";
     document.getElementById("senha").value="";
 
 }

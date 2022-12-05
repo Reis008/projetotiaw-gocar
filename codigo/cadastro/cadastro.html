@@ -47,19 +47,36 @@
     </header>
 
     <section class="area-login">
-        <div class="login"; style="height: 600px;">
+        <div class="login"; style="height: 630px;">
             <div>
                 <img src="imagens/logo1.png">
             </div>
 
+            <div id="msgFormulario"></div>
+
+            <div id="msgError"></div>
+
+            <div id="msgSuccess"></div>
+
             <form method="POST">
-                <input type="text" name="nome" id="nome" required placeholder="nome do usuario" autofocus>
-                <input type="mail" name="e-mail" id="email" required placeholder="e-mail" autofocus>
-                <input type="tel" name="telefone" id="tel" required placeholder="telefone" autofocus>
-                <input type="number" name="cpf" id="cpf" required placeholder="CPF" autofocus>
-                <input type="password" name="senha" id="senha" required placeholder="senha">
-                <input type="password" name="confirmar" id="confirmsenha" required placeholder="confirmar senha">
-                <input class="btn-submit" value="entrar" id="btncadastro" onclick="validatesenha()">
+                <input type="text"name="nome" id="nome" placeholder="nome do usuario" required>
+
+                <input type="text" name="e-mail" id="email" placeholder="e-mail" required>
+
+
+                <input type="tel" name="telefone" id="tel" placeholder="telefone" required>
+
+
+                <input type="number" name="cpf" id="cpf" placeholder="CPF" required>
+
+
+                <input type="text" name="senha" id="senha" placeholder="senha" required>
+
+
+                <input type="text" name="confirmar" id="confirmsenha" placeholder="confirmar senha" required>
+
+
+                <input class="btn-submit" type="button" value="entrar" id="btncadastro" onclick="campos()">
             </form>
             <p>Já possui uma conta? <a href="/login/login.html">Logar</a></p>
         </div>
@@ -82,7 +99,7 @@
                     <li><a href="/home/home.html">Principal</a></li>
                     <li><a href="/sobre/sobre.html">Sobre Nos</a></li>
                     <li><a href="/pagealuguel/aluguel.html">Aluguel</a></li>
-                    <li><a href="/compra/compra.html">Compra</a></li>
+                    <li><a href="#">Compra</a></li>
                     <li><a href="#">Clube de Descontos</a></li>
                 </ul>
             </div>

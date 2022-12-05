@@ -58,6 +58,32 @@ body {
   }
   
   /*FIM HEADER*/
+
+  #msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  #msgSuccess{
+    text-align: center;
+    color: #204e30;
+    background-color: #cdf1d3;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+
+  #msgFormulario{
+    text-align: center;
+    color: #6e6a30;
+    background-color: #fdfbb7;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
   
   .area-login {
     display: flex;
@@ -72,9 +98,9 @@ body {
     align-items: center;
     background-color: #161616df;
     border-radius: 10px;
-    padding: 30px;
-    margin-top: 150px;
-    margin-bottom: 100px;
+    padding: 10px 10%;
+    margin-top: 130px;
+    margin-bottom: 120px;
     width: 50%
   }
   
@@ -117,6 +143,12 @@ body {
   font-weight: bold;
   cursor: pointer;
 
+  }
+
+  .btn-submit:hover{
+    color: rgb(216, 41, 28);
+    background: white!Important;
+    transition: .5s;
   }
   
   p {
