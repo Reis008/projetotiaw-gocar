@@ -59,6 +59,24 @@ header .links li a {
 
 /*FIM HEADER*/
 
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgFormulario{
+  text-align: center;
+  color: #6e6a30;
+  background-color: #fdfbb7;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
 .area-login {
   display: flex;
   height: 109vh;
