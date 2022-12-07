@@ -73,24 +73,8 @@ o
 
 ## Personas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+<img width="641" alt="image" src="https://user-images.githubusercontent.com/112207603/206199612-904f208f-8e42-4041-87fc-1c89c346b0d7.png">
 
-> Relacione as personas identificadas no seu projeto. Lembre-se que 
-> você deve descrever precisamente e de forma personalizada o público alvo do seu projeto. 
-> Você pode incluir uma imagem da ficha de persona desenvolvida. 
->
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> 
-> **Exemplo de Ficha**
-> ![Exemplo de Persona](images/persona.png)
- 
 
 ## Histórias de Usuários
 
