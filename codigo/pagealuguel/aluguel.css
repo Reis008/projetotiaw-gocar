@@ -84,11 +84,24 @@
     height: 3rem;
     text-overflow: ellipsis;
     word-break: break-all;
+    border-radius: 5px;
+    box-shadow: 2px 2px #d8291c;
   }
   button {
-    background-color: lightgray;
+    width: 450px;
+    border-radius: 50px;
+    background-color: #ff040470;
     border: 1px solid;
   }
+
+  button:hover {
+    color: #fff;
+    width: 450px;
+    border-radius: 50px;
+    background-color: #ff0404be;
+    border: 1px solid;
+  }
+
   table {
     border: 1px solid black;
     border-collapse: collapse;
@@ -115,6 +128,8 @@
     .container div {
       text-align: left;
       width: 48%;
+      display: grid;
+    grid-template-columns: 1fr;
     }
   }
     
