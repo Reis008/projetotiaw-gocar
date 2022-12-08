@@ -8,6 +8,7 @@
 
 
 ## Participantes
+
 > - Flavio Gomes Reis
 > - Gabriel Luis Ferreira Figueiredo
 > - Henrique Canderoli Mendes
@@ -39,14 +40,14 @@ Nosso principal problema é a locomoção de pessoas que necessitam de um carro 
 
 ## Objetivos
 
--  Objetivo geral é desenvolver um software para solucionar um problema que foi diagnosticado na sociedade;
--  OBJETIVO PARTICULAR;
-- Criar um software atrativo capaz de desbancar os concorrentes e entregar versatilidade e agilidade ao usuário nas funções de :;
---  Criar pagina de cadastro e login em nosso site;
---  Criar página que contém um sistema de cálculo usando a tabela Fipe que entrega o valor de aluguel justo ao usuário variando de acordo com quantos dias ele optou por alugar o veículo;
--- Criar pagina contando um pouco sobre a nossa historia;
--- Criar uma pagina referente ao nosso clube de descontos;
--- Criar uma pagina de referente a compra de veículos;
+-  Objetivo geral é desenvolver um software para solucionar um problema que foi diagnosticado na sociedade
+-  OBJETIVO PARTICULAR
+- Criar um software atrativo capaz de desbancar os concorrentes e entregar versatilidade e agilidade ao usuário nas funções de:
+- Criar pagina de cadastro e login em nosso site
+- Criar página que contém um sistema de cálculo usando a tabela Fipe que entrega o valor de aluguel justo ao usuário variando de acordo com quantos dias ele optou por alugar o veículo
+- Criar pagina contando um pouco sobre a nossa historia
+- Criar uma pagina referente ao nosso clube de descontos
+- Criar uma pagina de referente a compra de veículos
 
 o	
 ## Público-Alvo
@@ -60,18 +61,18 @@ o
 - CNH: Qualquer tipo de cnh valida;
 - Hábitos de consumo: Tem a preferencia pricipalmente na facilidade e agilidade de navegaçao e tambem prioriza a qualidade e a verecidade de promoçoes que o site disponibiliza;
 - Nosso publico alvo é qualquer pessoa com CNH que esteja a procura de um veiculo para aluguel ou compra;
+
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+Para desenvolver as especificações mínimas do projeto utilizamos:
+- Trello
+- Canva
+- Pesquisas
+- Kanban
 
 ## Personas
 
 <img width="641" alt="image" src="https://user-images.githubusercontent.com/112207603/206199612-904f208f-8e42-4041-87fc-1c89c346b0d7.png">
-
 
 ## Histórias de Usuários
 
