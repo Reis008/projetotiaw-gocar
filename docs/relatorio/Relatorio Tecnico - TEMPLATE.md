@@ -39,10 +39,15 @@ Nosso principal problema é a locomoção de pessoas que necessitam de um carro 
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+-  Objetivo geral é desenvolver um software para solucionar um problema que foi diagnosticado na sociedade;
+-  OBJETIVO PARTICULAR;
+- Criar um software atrativo capaz de desbancar os concorrentes e entregar versatilidade e agilidade ao usuário nas funções de :;
+--  Criar pagina de cadastro e login em nosso site;
+--  Criar página que contém um sistema de cálculo usando a tabela Fipe que entrega o valor de aluguel justo ao usuário variando de acordo com quantos dias ele optou por alugar o veículo;
+-- Criar pagina contando um pouco sobre a nossa historia;
+-- Criar uma pagina referente ao nosso clube de descontos;
+-- Criar uma pagina de referente a compra de veículos;
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-•	Objetivo geral é desenvolver um software para solucionar o problema
 o	
 ## Público-Alvo
 
@@ -54,7 +59,7 @@ o
 - Localização: Residentes em capitais e regiões metropolitanas;
 - CNH: Qualquer tipo de cnh valida;
 - Hábitos de consumo: Tem a preferencia pricipalmente na facilidade e agilidade de navegaçao e tambem prioriza a qualidade e a verecidade de promoçoes que o site disponibiliza;
-Nosso publico alvo é qualquer pessoa com CNH que esteja a procura de um veiculo para aluguel ou compra;
+- Nosso publico alvo é qualquer pessoa com CNH que esteja a procura de um veiculo para aluguel ou compra;
 # Especificações do Projeto
 
 ......  COLOQUE AQUI O SEU TEXTO ......
