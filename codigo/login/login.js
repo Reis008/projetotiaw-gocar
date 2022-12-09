@@ -1,3 +1,26 @@
+function changebutton(){
+    let perfilid = document.querySelector("#perfilid");
+    let loginbar = document.querySelector("#loginbar");
+    let logout = document.querySelector("#logout");
+
+    const usuarioLogado =  JSON.parse(localStorage.getItem("userlogado"));
+    if(usuarioLogado.emailusuario != undefined){
+        perfilid.setAttribute("style", "display: block")
+        loginbar.setAttribute("style", "display: none")
+        logout.setAttribute("style", "display: block")
+    }else{
+        perfilid.setAttribute("style", "display: none")
+        loginbar.setAttribute("style", "display: block")
+        logout.setAttribute("style", "display: none")
+    }
+    
+}
+
+function logout(){
+    localStorage.removeItem('userlogado')
+    location.reload();
+}
+
 function campos(){
     var login = document.getElementById("user");
     var senha = document.getElementById("password");
@@ -31,23 +54,32 @@ function logar(){
         if (usuario.login == item.nomeusuario && usuario.senha == item.senha) {
 
             uservalid = {
-                nome: item.nomeusuario,
-                email: item.emailusuario,
-                tel: item.telefoneusuario,
-                cpf: item.cpfusuario,
+                nomeusuario: item.nomeusuario,
+                emailusuario: item.emailusuario,
+                telefoneusuario: item.telefoneusuario,
+                cpfusuario: item.cpfusuario,
                 senha: item.senha
             }
 
             logado = true;
+
+            localStorage.setItem("userlogado",   JSON.stringify(uservalid));
+
         }
     })
 
-    console.log(uservalid);
+
+    function cincoseg(){
+        window.location.href = "/home/home.html";
+    }
 
     if (logado) {
-        window.location.href = "/home/home.html";
         msgError.setAttribute("style", "display: none")
+        msgSuccess.setAttribute("style", "display: block")
+        msgSuccess.innerHTML = "Logado com Sucesso"
+        setTimeout(cincoseg, 1000*2);
         limparform();
+        
     } else {
         msgError.setAttribute("style", "display: block")
         msgError.innerHTML = "Senha ou usuário inválido"

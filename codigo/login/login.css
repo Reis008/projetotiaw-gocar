@@ -77,6 +77,15 @@ header .links li a {
   display: none;
 }
 
+#msgSuccess{
+  text-align: center;
+  color: #204e30;
+  background-color: #cdf1d3;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
 .area-login {
   display: flex;
   height: 109vh;
