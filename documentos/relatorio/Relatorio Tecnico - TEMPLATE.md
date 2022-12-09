@@ -95,57 +95,34 @@ A tabela que segue apresenta os requisitos funcionais do projeto.
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RF-001| PERMITIR O USUARIO SE CADASTRAR | ALTA | 
+|RF-002| PERMITIR O USUARIO FAZER LOGIN    | ALTA |
+|RF-003| ENTREGAR OPÇOES DE COMPRA    | MEDIA |
+|RF-004| CALCULO PRONTO DE ALUGUEL POR MODELO PRE SELECIONADO PELO USUARIO   | ALTA |
+|RF-005| SITE DE FACIL NAVEGAÇÃO    | MEDIA |
 
 # Projeto da Solução
 
-......  COLOQUE AQUI O SEU TEXTO ......
-> Descreva brevemente quais tecnologias e/ou frameworks foram utilizados no projeto.
+Para desenvolver o projeto utilizamos:
+- Trello
+- Canva
+- Html
+- Css
+- JavaScript
+- bootstrap
+- Api
+- Json
+- Scrum
+- Kanban
+- Local Storage
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
-
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Link para Wireframe](images/wireframe-example.png)
-
+https://miro.com/app/board/uXjVP7Eb5gk=/?share_link_id=988211722283
 
 ## Mapa de navegação
-
-......  COLOQUE AQUI O SEU TEXTO OU DIAGRAMA DE NAVEGAÇÃO .......
-
-> Inclua uma descrição textual ou um diagrama mostrando, sequencialmente, quais ações
-> um usuário deve realizar para utilizar todas as características do seu sistema. 
-
-
-> **Exemplo de Diagrama (opcional, pode ser em texto)**
-> ![Exemplo de Diagrama de Navegação](images/userflow.jpg)
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/112207603/206760266-2d4e0be4-783d-450d-a505-911352603f09.png">
 
 # Conclusões
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Finalize escrevendo um ou dois parágrafos para relembrar o objetivo do projeto, 
-> o que foi possível alcançar e o que ficou para um trabalho futuro, e relembrando
-> as principais dificuldades encontradas e como foi possível con
+Visando todas as motivações e problemas encontrados determinamos um objetivo geral e vários objetivos particulares, no caminho tivemos varias fases de desconfiança no resultado e por isso enfrentamos algumas dificuldades, mas nosso principal desafio foi trabalhar com API e com o JavaScript mas com foco e determinação conseguimos superar essas dificuldades e desenvolvemos um projeto totalmente único que concluiu com êxito todos os objetivos pré definidos.
