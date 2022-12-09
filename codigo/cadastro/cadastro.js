@@ -104,6 +104,7 @@ function cadastroNovo(){
     }
 
     bancoContatos.push(novoCadastro);
+    localStorage.setItem("userlogado",   JSON.stringify(novoCadastro));
     localStorage.setItem("cadastros",   JSON.stringify(bancoContatos));
     console.log(bancoContatos);
 
