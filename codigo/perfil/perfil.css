@@ -55,6 +55,23 @@ header .links li a {
 
 /*FIM HEADER*/
 
+#msgFormulario{
+    text-align: center;
+    color: #6e6a30;
+    background-color: #fdfbb7;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+#msgSuccess{
+    text-align: center;
+    color: #204e30;
+    background-color: #cdf1d3;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
 
 .profile-container img {
 
@@ -110,7 +127,7 @@ input[type="file"] {
     border: 1px solid #333;
 }
 
-label:hover {
+button:hover {
     color: #333;
     background: white;
 }
@@ -123,7 +140,7 @@ label:hover {
 }
 
 
-.area-perfil label2{
+.area-perfil button{
     padding: 10px 20px;
     width: 100%;
     background: #f34b4b;
@@ -137,7 +154,7 @@ label:hover {
     border: 1px solid #333;
 }
 
-.area-perfil label2:hover{
+.area-perfil button:hover{
     color: #333;
     background: white;    
 }

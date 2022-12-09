@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8" />
@@ -11,17 +11,17 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="perfil.css" />
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <a class="logo" href="/">
-                <img src="imagens/logo1.png" />
+            <a class="logo" href="/home/home.html">
+                <img src="/imagens/logo1.png" />
             </a>
         </div>
+
         <div class="links">
             <ul class="navbar" ;>
                 <li class="nav-item ">
@@ -47,30 +47,30 @@
 
 
     <section class="area-perfil">
-        
-        
+
+
         <div class="profile-container">
             <div>
-                <img src="imagens/perfil_imagem.png" />
-
-                <div>
-                    <label for="imagefile">Alterar foto</label>
-                    <input type="file" name="imagefile" id="imagefile">
-                </div>   
+                <img src="/imagens/logo1.png" />
             </div>
-            
+
+            <div id="msgFormulario"></div>
+
+            <div id="msgSuccess"></div>
+
             <form method="POST">
 
-                <input type="text" name="full_name" placeholder="Nome completo">
-                <input type="email" name="email" placeholder="Endereço de email">
-                <input type="text" name="full_name" placeholder="(00) 0000-0000">
-                <input type="password" name="password" placeholder="Senha">
-                <input type="password" name="cpassword" placeholder="Confirmar senha">
+                <input type="text" id="nome" name="full_name" placeholder="Nome completo">
+                <!-- <script type="text/javascript">
+                    document.getElementById('nome').value = '123';
+                </script> -->
+                <input type="email" id="email" name="email" placeholder="Endereço de email">
+                <input type="tel" id="tel" name="full_name" placeholder="(00) 0000-0000">
 
 
                 <div>
-                    <label2 for="imagefile">Atualizar perfil</label2>
-                    <button type="submit" name="submit" class="btn"></button>
+                    <button type="button" onclick="atualizado()" name="submit" class="btn">Salvar mudanças</button>
+                    <!-- <input class="btn" type="button" value="entrar" id="btn" onclick="krl()"> -->
                 </div>
             </form>
 
@@ -90,10 +90,10 @@
 
             <div class="row">
                 <ul>
-                    <li><a href="/home/home.html">Principal</a></li>
-                    <li><a href="/sobre/sobre.html">Sobre nos</a></li>
-                    <li><a href="/pagealuguel/aluguel.html">Aluguel</a></li>
-                    <li><a href="/compra/compra.html">Compra</a></li>
+                    <li><a href="#">Principal</a></li>
+                    <li><a href="#">Sobre nos</a></li>
+                    <li><a href="#">Aluguel</a></li>
+                    <li><a href="#">Compra</a></li>
                     <li><a href="#">Clube de Descontos</a></li>
                 </ul>
             </div>
@@ -108,6 +108,7 @@
             crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="perfil.js"></script>
 
     </footer>
 </body>
