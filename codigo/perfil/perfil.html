@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="perfil.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a class="logo" href="/home/home.html">
+                <img src="/imagens/logo1.png" />
+            </a>
+        </div>
+
+        <div class="links">
+            <ul class="navbar" ;>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/home/home.html"> Principal </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/sobre/sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pagealuguel/aluguel.html">Aluguel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/compra/compra.html">Compra</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="?????">Clube de Descontos</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </header>
+
+
+    <section class="area-perfil">
+
+
+        <div class="profile-container">
+            <div>
+                <img src="/imagens/logo1.png" />
+            </div>
+
+            <div id="msgFormulario"></div>
+
+            <div id="msgSuccess"></div>
+
+            <form method="POST">
+
+                <input type="text" id="nome" name="full_name" placeholder="Nome completo">
+                <!-- <script type="text/javascript">
+                    document.getElementById('nome').value = '123';
+                </script> -->
+                <input type="email" id="email" name="email" placeholder="Endereço de email">
+                <input type="tel" id="tel" name="full_name" placeholder="(00) 0000-0000">
+
+
+                <div>
+                    <button type="button" onclick="atualizado()" name="submit" class="btn">Salvar mudanças</button>
+                    <!-- <input class="btn" type="button" value="entrar" id="btn" onclick="krl()"> -->
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <ul>
+                    <li href="#"><a class="fa fa-facebook"></a></li>
+                    <li href="#"><a class="fa fa-instagram"></a></li>
+                    <li href="#"><a class="fa fa-youtube"></a></li>
+                    <li href="#"><a class="fa fa-twitter"></a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Principal</a></li>
+                    <li><a href="#">Sobre nos</a></li>
+                    <li><a href="#">Aluguel</a></li>
+                    <li><a href="#">Compra</a></li>
+                    <li><a href="#">Clube de Descontos</a></li>
+                </ul>
+            </div>
+
+            <div class="copy">
+                @Copyright 2020 - Disciplina de Trabalho Interdisciplinar -PUC MINAS
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="perfil.js"></script>
+
+    </footer>
+</body>
+
+</html>

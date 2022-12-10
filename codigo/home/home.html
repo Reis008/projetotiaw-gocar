@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>GoCar - Home</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+   <link rel="shortcut icon" href="/imagens/logo1.png">
+   <link rel="stylesheet" href="/home/home.css" />
+
+</head>
+
+<body onload="changebutton()">
+
+   <!--HEADER-->
+
+   <header>
+      <div>
+         <a class="logo" href="/home/home.html">
+            <img src="/imagens/logo1.png" />
+         </a>
+      </div>
+      <div class="links">
+         <ul class="navbar" ;>
+            <li class="nav-item ">
+               <a class="nav-link" href="/home/home.html"> Principal </a>
+            </li>
+            <li class="nav-item active">
+               <a class="nav-link" href="/sobre/sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/pagealuguel/aluguel.html">Aluguel</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/compra/compra.html">Compra</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="/desconto/desconto.html">Clube de Descontos</a>
+            </li>
+            <div class="login">
+               <div id ="loginbar">
+                  <a class="button"  href="/login/login.html"
+                        aria-hidden="true"></i>Login/Register</a>
+               </div>
+               <div id ="perfilid">
+                  <a class="button" href="/perfil/perfil.html"
+                        aria-hidden="true"></i>Meu perfil</a>
+               </div>
+               <div id ="logout">
+                  <a class="button" onclick="logout()">Logout</a>
+               </div>
+            </div>
+         </ul>
+      </div>
+
+   </header>
+
+   <!--HEADER FIM-->
+
+   <!--CAROUSEL-->
+   <div id="carousel">
+      <h2><b>Destaques</b></h2>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+               aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+               aria-label="Slide 2"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img class="d-block w-100" src="/imagens/home/segundo.png" #alt="first slide">
+            </div>
+            <div class="carousel-item ">
+               <img class="d-block w-100" src="/imagens/home/primeiro.png" #alt="second slide">
+            </div>
+
+         </div>
+
+         </a>
+      </div>
+   </div>
+
+   <!--CAROUSEL FIM-->
+
+   <!--PARCERIAS-->
+
+   <div class="titulo">
+      <h2><b>Parcerias GoCar</b></h2>
+      </div>
+   <div class="segundo">
+      <div class="marcas">
+         <div><img src="/imagens/home/marcas/chevrolet.png" alt="chevrolet" /></div>
+         <div><img src="/imagens/home/marcas/fiat.png" alt="fiat"></div>
+         <div><img src="/imagens/home/marcas/ford.png"alt="ford" /></div>
+         <div><img src="/imagens/home/marcas/hyundai.png"alt="hyundai" /></div>
+         <div><img src="/imagens/home/marcas/mercedes.png"alt="mercedes" /></div>
+         <div><img src="/imagens/home/marcas/renault.png" alt="renault" /></div>
+         <div><img src="/imagens/home/marcas/toyota.png"alt="toyota" /></div>
+         <div><img src="/imagens/home/marcas/volks.png" alt="volks" /></div>
+      </div>
+   </div>
+
+   <!--PARCERIAS FIM-->
+
+   <!--CARD-->
+
+   <div class="titulo2">
+      <h2><b>Aproveite </b></h2>
+   </div>
+   <div class="cardgrupo">
+      <div class="card">
+         <img class="card-img-top" src="/imagens/home/card1.png" alt="Card image cap">
+         <div class="cardbody">
+            <h5 class="cardtitle"><b>A FROTA MAIS NOVA E COMPLETA</b></h5>
+            <p class="cardtext">Simule o seu Aluguel agora e alem de obter o melhor preço do Brasil
+               tera a sua disposiçao o melhor que nossa frota tem a oferecer .Não perca esssa oportunidade e venha ja
+               conferir.</p>
+            <div class="botao">
+               <a href='/pagealuguel/aluguel.html'> <button class="btn btn-dark" type="button">Clique e confira!</button></a>
+            </div>
+
+         </div>
+      </div>
+
+      <div class="card">
+         <img class="card-img-top" src="/imagens/home/card2.png" alt="Card image cap">
+         <div class="cardbody">
+            <h5 class="cardtitle"><b>PREÇO JUSTO</b></h5>
+            <p class="cardtext">Quer comprar um carro mas não sabe qual? Não tem problema, na GoCar,
+               você encontra todos os modelos e marcas!Alem de encontrar o valor justo de qualquer carro do Brasil
+            </p>
+            <div class="botao">
+               <a href='/compra/compra.html'> <button class="btn btn-dark" type="button">Clique e confira!</button></a>
+
+            </div>
+         </div>
+      </div>
+      <div class="card">
+         <img class="card-img-top" src="/imagens/home/card3.png" alt="Card image cap">
+         <div class="cardbody">
+            <h5 class="cardtitle"><b>CLUBE DE DESCONTOS</b></h5>
+            <p class="cardtext">Cadastre-se agora mesmo para participar do nosso clube de desconto exclusivo
+               e alem de todos os nossos beneficos você terá acesso a varios cupoms promocionais.</p>
+            <div class="botao">
+               <a href='/desconto/desconto.html'> <button class="btn btn-dark" type="button">Clique e confira!</button></a>
+            </div>
+         </div>
+      </div>
+
+   </div>
+
+
+
+   <!--CARD FIM-->
+
+   <!--CARD 2-->
+
+   <div class="titulo2">
+      <h2><b>Avaliações </b></h2>
+   </div>
+   <div class="cardgrupo2">
+
+      <div class="card">
+         <img class="card-img-top" src="/imagens/home/ava1.png" alt="Card image cap">
+
+      </div>
+      <div class="card">
+         <img class="card-img-top" src="/imagens/home/ava2.png" alt="Card image cap">
+
+      </div>
+      <div class="card">
+         <img class="card-img-top" src="/imagens/home/ava3.png" alt="Card image cap">
+
+      </div>
+
+   </div>
+   <!--CARD 2 FIM-->
+
+   <!--FOOTER-->
+
+   <footer>
+      <div class="footer">
+         <div class="row">
+            <ul>
+               <li href="#"><a class="fa fa-facebook"></a></li>
+               <li href="#"><a class="fa fa-instagram"></a></li>
+               <li href="#"><a class="fa fa-youtube"></a></li>
+               <li href="#"><a class="fa fa-twitter"></a></li>
+            </ul>
+         </div>
+
+         <div class="row">
+            <ul>
+               <li><a href="/home/home.html">Principal</a></li>
+               <li><a href="/sobre/sobre.html">Sobre nos</a></li>
+               <li><a href="/pagealuguel/aluguel.html">Aluguel</a></li>
+               <li><a href="/compra/compra.html">Compra</a></li>
+               <li><a href="/desconto/desconto.html">Clube de Descontos</a></li>
+            </ul>
+         </div>
+
+         <div class="copy">
+            @Copyright 2020 - Disciplina de Trabalho Interdisciplinar -PUC MINAS
+         </div>
+      </div>
+   </footer>
+
+   <!--FOOTER FIM -->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="/login/login.js"></script>
+
+</body>
+
+</html>
