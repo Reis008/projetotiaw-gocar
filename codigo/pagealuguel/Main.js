@@ -178,8 +178,8 @@ function CaucularDiaria() {
                     $('#resultado').append(`
                         <h3>VALOR DA TOTAL DO ALUGUEL</h3>
                         <h4>R$${ValorTotall}</h4>
-                        <img src="imagens/imgcarro.png" alt="">
-                        <p>Modelo: ${marca}</p>
+                        <img src="../imagens/imgcarro.png" alt="">
+                        <p>Marca: ${marca}</p>
                         <p>Modelo: ${modelo}</p>
                         <p>Fipe: ${valorFipe}</p>
                         <p>Ano: ${ano}</p>
