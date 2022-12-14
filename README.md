@@ -2,6 +2,15 @@
 # GoCar
 Que tal realizar aquele sonho do carro novo? Na GoCar você encontra toda a ajuda que precisa para tornar o seu sonho uma realidade! Carros novos e disponiveis para aluguel, de todas as marcas e com as melhores condições que você irá encontrar!
 
+# Requisitos cumpridos: 100/100
+  - api parcial
+  
+## Comentários da correção
+
+Parabéns pelo trabalho, pessoal. Algumas implementações poderiam ser um pouco mais caprichadas, porém vocês cumpriram todo o planejado e o resultado ficou muito interessante. 
+
+A nota é individual baseada na inspeção dos commits e do kanban.
+
 ## Alunos integrantes da equipe
 
 * Flávio Gomes Reis
