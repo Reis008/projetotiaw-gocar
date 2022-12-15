@@ -4,7 +4,11 @@ Que tal realizar aquele sonho do carro novo? Na GoCar você encontra toda a ajud
 
 # Requisitos cumpridos: 100/100
   - api parcial
-  
+
+# Nota de apresentação 85/100
+
+**Importante:** A nota-base do grupo é calculada a partir das porcentagens acima. A nota individual leva em consideração ainda a nota de acompanhamento nas reuniões de grupos, a participação efetiva nas tarefas e commits e os descontos por falta nas reuniões. 
+
 ## Comentários da correção
 
 Parabéns pelo trabalho, pessoal. Algumas implementações poderiam ser um pouco mais caprichadas, porém vocês cumpriram todo o planejado e o resultado ficou muito interessante. 
