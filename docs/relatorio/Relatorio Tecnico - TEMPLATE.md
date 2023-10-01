@@ -72,7 +72,7 @@ Para desenvolver as especificações mínimas do projeto utilizamos:
 
 ## Personas
 
-<img width="641" alt="image" src="https://user-images.githubusercontent.com/112207603/206199612-904f208f-8e42-4041-87fc-1c89c346b0d7.png">
+<img width="641" alt="image" src="https://drive.google.com/file/d/1alwKFQKz1rVxjnqos5mfZ-BJK66nsEIV/view?usp=sharing">
 
 ## Histórias de Usuários
 
